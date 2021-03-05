@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tire-reviews",
+      "handler": "tire-review.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tire-reviews/count",
+      "handler": "tire-review.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tire-reviews/:id",
+      "handler": "tire-review.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tire-reviews",
+      "handler": "tire-review.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tire-reviews/:id",
+      "handler": "tire-review.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tire-reviews/:id",
+      "handler": "tire-review.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

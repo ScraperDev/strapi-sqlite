@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/vehicle-tire-recommendations",
+      "handler": "vehicle-tire-recommendation.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vehicle-tire-recommendations/count",
+      "handler": "vehicle-tire-recommendation.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vehicle-tire-recommendations/:id",
+      "handler": "vehicle-tire-recommendation.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/vehicle-tire-recommendations",
+      "handler": "vehicle-tire-recommendation.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/vehicle-tire-recommendations/:id",
+      "handler": "vehicle-tire-recommendation.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/vehicle-tire-recommendations/:id",
+      "handler": "vehicle-tire-recommendation.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

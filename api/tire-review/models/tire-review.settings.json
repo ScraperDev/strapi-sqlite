@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tire-review",
+  "info": {
+    "name": "Tire Review",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tirePicture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "createdDate": {
+      "type": "datetime",
+      "required": true
+    },
+    "reviewBody": {
+      "type": "richtext",
+      "private": false,
+      "required": false
+    },
+    "tireName": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
