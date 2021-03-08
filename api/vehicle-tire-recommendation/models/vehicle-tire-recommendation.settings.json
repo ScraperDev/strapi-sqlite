@@ -11,9 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "budgetTireReview": {
-      "model": "tire-review"
-    },
     "title": {
       "type": "string"
     },
@@ -39,12 +36,6 @@
     "vehicleBackground": {
       "type": "text"
     },
-    "bestTireReview": {
-      "model": "tire-review"
-    },
-    "winterTireReview": {
-      "model": "tire-review"
-    },
     "vehicleImage": {
       "model": "file",
       "via": "related",
@@ -55,6 +46,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
