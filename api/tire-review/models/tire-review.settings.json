@@ -38,6 +38,9 @@
     },
     "slug": {
       "type": "string"
+    },
+    "tireRackLink": {
+      "type": "string"
     }
   }
 }

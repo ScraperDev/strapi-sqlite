@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "vehicle_tire_recommendations",
   "info": {
-    "name": "VehicleTireRecommendation",
+    "name": "Tire List",
     "description": ""
   },
   "options": {
